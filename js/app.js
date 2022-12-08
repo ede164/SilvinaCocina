@@ -191,7 +191,7 @@ const stockProductos = [
     if (carrito.length === 0) {
       console.log("Nada");
       modalBody.innerHTML = `
-      <p class="text-center text-primary parrafo">¡Aun no agregaste nada!</p>
+      <p class="text-center text-primary parrafo">¡no agregaste nada!</p>
       `;
     } else {
       console.log("Algo");
@@ -256,10 +256,6 @@ const stockProductos = [
    } else {
   
     const btn = document.getElementById('button');
-  
-  // document.getElementById('procesar-pago')
-  //  .addEventListener('submit', function(event) {
-  //    event.preventDefault();
   
      btn.value = 'Enviando...';
   

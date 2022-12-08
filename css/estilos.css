@@ -38,3 +38,11 @@ a{
 .boton{
     opacity:0;
 }
+.title{
+    color: black;
+}
+#contenedor {
+    flex: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
